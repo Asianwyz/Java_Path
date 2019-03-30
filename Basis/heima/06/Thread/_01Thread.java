@@ -15,12 +15,17 @@ package heima.Thread;
 
 public class _01Thread {
     public static void main(String[] args) {
-        MyThread mt = new MyThread("新的线程");
-        // 开启新线程
-        mt.start();
+//        MyThread mt = new MyThread("新的线程");
+//        // 开启新线程
+//        mt.start();
+//
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println("main线程！" + i );
+//        }
 
-        for (int i = 0; i < 10; i++) {
-            System.out.println("main线程！" + i );
-        }
+        new ThreadGetName().start();
+        new ThreadGetName().start();
+        System.out.println(Thread.currentThread().getName());
+        new ThreadSetName("Asia").start();
     }
 }
