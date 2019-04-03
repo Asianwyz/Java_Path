@@ -6,3 +6,4 @@
 04 ----->  List LinkedList  Set  Collections  Map	List，链表List，Set，HashSet，Collections工具类，Map
 05 ----->  Exception                                                 异常
 06 ----->  Thread                       		线程
+07 ----->  File				文件类
