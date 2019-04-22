@@ -79,4 +79,18 @@ public class Emp {
     public void setDept_id(int dept_id) {
         this.dept_id = dept_id;
     }
+
+    @Override
+    public String toString() {
+        return "Emp{" +
+                "id=" + id +
+                ", ename='" + ename + '\'' +
+                ", job_id=" + job_id +
+                ", mgr=" + mgr +
+                ", join_date=" + join_date +
+                ", salary=" + salary +
+                ", bonus=" + bonus +
+                ", dept_id=" + dept_id +
+                '}';
+    }
 }
